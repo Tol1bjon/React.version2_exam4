@@ -1,0 +1,810 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Kia",
+      "models": [
+        {
+          "modelId": "kia-rio",
+          "modelName": "Kia Rio",
+          "image": "/cars/kia-rio.jpg",
+          "variations": [
+            {
+              "id": 101,
+              "color": "Белый",
+              "price": 1250000,
+              "oldPrice": 1400000,
+              "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c351?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Comfort, двигатель 1.4 л, АКПП, 100 л.с."
+            },
+            {
+              "id": 102,
+              "color": "Черный",
+              "price": 1300000,
+              "oldPrice": 1450000,
+              "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Luxe, двигатель 1.6 л, АКПП, 123 л.с."
+            },
+            {
+              "id": 103,
+              "color": "Красный",
+              "price": 1350000,
+              "oldPrice": 1500000,
+              "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Premium, двигатель 1.6 л, АКПП, кожаный салон."
+            }
+          ]
+        },
+        {
+          "modelId": "kia-k5",
+          "modelName": "Kia K5",
+          "image": "/cars/kia-k5.jpg",
+          "variations": [
+            {
+              "id": 104,
+              "color": "Серый",
+              "price": 2400000,
+              "oldPrice": 2650000,
+              "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Classic, 2.0 л, 150 л.с., АКПП"
+            },
+            {
+              "id": 105,
+              "color": "Белый перламутр",
+              "price": 2600000,
+              "oldPrice": 2850000,
+              "image": "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Luxe, 2.0 л, панорамная крыша"
+            },
+            {
+              "id": 106,
+              "color": "Черный металлик",
+              "price": 2900000,
+              "oldPrice": 3150000,
+              "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация GT Line, 2.5 л, 194 л.с."
+            }
+          ]
+        },
+        {
+          "modelId": "kia-sportage",
+          "modelName": "Kia Sportage",
+          "image": "/cars/kia-sportage.jpg",
+          "variations": [
+            {
+              "id": 107,
+              "color": "Серебристый",
+              "price": 2300000,
+              "oldPrice": 2500000,
+              "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+              "info": "Передний привод, 2.0 л, 150 л.с."
+            },
+            {
+              "id": 108,
+              "color": "Синий",
+              "price": 2550000,
+              "oldPrice": 2750000,
+              "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+              "info": "Полный привод AWD, комплектация Luxe"
+            },
+            {
+              "id": 109,
+              "color": "Зеленый",
+              "price": 2800000,
+              "oldPrice": 3050000,
+              "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+              "info": "Максимальная комплектация Prestige, полный привод"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "id": 2,
+      "brand": "Lifan",
+      "models": [
+        {
+          "modelId": "lifan-x60",
+          "modelName": "Lifan X60",
+          "image": "/cars/lifan-x60.jpg",
+          "variations": [
+            {
+              "id": 201,
+              "color": "Белый",
+              "price": 850000,
+              "oldPrice": 950000,
+              "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80",
+              "info": "Механика, 1.8 л, 128 л.с."
+            },
+            {
+              "id": 202,
+              "color": "Коричневый",
+              "price": 890000,
+              "oldPrice": 990000,
+              "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+              "info": "Вариатор, 1.8 л, кондиционер"
+            },
+            {
+              "id": 203,
+              "color": "Черный",
+              "price": 930000,
+              "oldPrice": 1050000,
+              "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+              "info": "Максимальная комплектация Luxury, кожа"
+            }
+          ]
+        },
+        {
+          "modelId": "lifan-solano",
+          "modelName": "Lifan Solano",
+          "image": "/cars/lifan-solano.jpg",
+          "variations": [
+            {
+              "id": 204,
+              "color": "Серебристый",
+              "price": 680000,
+              "oldPrice": 750000,
+              "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+              "info": "Седан, механика, 1.5 л"
+            },
+            {
+              "id": 205,
+              "color": "Белый",
+              "price": 720000,
+              "oldPrice": 800000,
+              "image": "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&w=600&q=80",
+              "info": "Седан, вариатор, 1.8 л"
+            },
+            {
+              "id": 206,
+              "color": "Синий",
+              "price": 750000,
+              "oldPrice": 830000,
+              "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+              "info": "Люкс комплектация, мультимедиа"
+            }
+          ]
+        },
+        {
+          "modelId": "lifan-x50",
+          "modelName": "Lifan X50",
+          "image": "/cars/lifan-x50.jpg",
+          "variations": [
+            {
+              "id": 207,
+              "color": "Оранжевый",
+              "price": 700000,
+              "oldPrice": 790000,
+              "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c351?auto=format&fit=crop&w=600&q=80",
+              "info": "Кросс-хэтчбек, механика"
+            },
+            {
+              "id": 208,
+              "color": "Красный",
+              "price": 740000,
+              "oldPrice": 830000,
+              "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=600&q=80",
+              "info": "Кросс-хэтчбек, автоматическая КПП"
+            },
+            {
+              "id": 209,
+              "color": "Серый",
+              "price": 770000,
+              "oldPrice": 860000,
+              "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+              "info": "Максимальная комплектация Comfort"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "id": 3,
+      "brand": "Datsun",
+      "models": [
+        {
+          "modelId": "datsun-on-do",
+          "modelName": "Datsun on-DO",
+          "image": "/cars/datsun-on-do.jpg",
+          "variations": [
+            {
+              "id": 301,
+              "color": "Белый",
+              "price": 650000,
+              "oldPrice": 720000,
+              "image": "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=600&q=80",
+              "info": "Седан, механика, 1.6 л, 87 л.с."
+            },
+            {
+              "id": 302,
+              "color": "Коричневый",
+              "price": 710000,
+              "oldPrice": 780000,
+              "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+              "info": "Седан, автомат (Jatco), 1.6 л, 106 л.с."
+            },
+            {
+              "id": 303,
+              "color": "Серебристый",
+              "price": 740000,
+              "oldPrice": 820000,
+              "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Dream, подогрев сидений"
+            }
+          ]
+        },
+        {
+          "modelId": "datsun-mi-do",
+          "modelName": "Datsun mi-DO",
+          "image": "/cars/datsun-mi-do.jpg",
+          "variations": [
+            {
+              "id": 304,
+              "color": "Ярко-красный",
+              "price": 690000,
+              "oldPrice": 760000,
+              "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=600&q=80",
+              "info": "Хэтчбек, механика, 1.6 л"
+            },
+            {
+              "id": 305,
+              "color": "Черный",
+              "price": 730000,
+              "oldPrice": 810000,
+              "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+              "info": "Хэтчбек, автомат, климат-контроль"
+            },
+            {
+              "id": 306,
+              "color": "Белый",
+              "price": 760000,
+              "oldPrice": 840000,
+              "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c351?auto=format&fit=crop&w=600&q=80",
+              "info": "Максимальная комплектация Safe"
+            }
+          ]
+        },
+        {
+          "modelId": "datsun-cross",
+          "modelName": "Datsun Cross",
+          "image": "/cars/datsun-cross.jpg",
+          "variations": [
+            {
+              "id": 307,
+              "color": "Желтый",
+              "price": 820000,
+              "oldPrice": 900000,
+              "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+              "info": "Компакт-кроссовер, вариатор"
+            },
+            {
+              "id": 308,
+              "color": "Серый",
+              "price": 790000,
+              "oldPrice": 870000,
+              "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+              "info": "Компакт-кроссовер, механика"
+            },
+            {
+              "id": 309,
+              "color": "Белый",
+              "price": 850000,
+              "oldPrice": 930000,
+              "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+              "info": "Максимальная комплектация с защитой картера"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "id": 4,
+      "brand": "Zotye",
+      "models": [
+        {
+          "modelId": "zotye-t600",
+          "modelName": "Zotye T600",
+          "image": "/cars/zotye-t600.jpg",
+          "variations": [
+            {
+              "id": 401,
+              "color": "Белый",
+              "price": 1100000,
+              "oldPrice": 1250000,
+              "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+              "info": "Кроссовер, механика, 1.5 л турбо"
+            },
+            {
+              "id": 402,
+              "color": "Черный",
+              "price": 1180000,
+              "oldPrice": 1330000,
+              "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+              "info": "Кроссовер, робот, 2.0 л турбо"
+            },
+            {
+              "id": 403,
+              "color": "Коричневый",
+              "price": 1250000,
+              "oldPrice": 1400000,
+              "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Royal, панорама"
+            }
+          ]
+        },
+        {
+          "modelId": "zotye-coupe",
+          "modelName": "Zotye T300",
+          "image": "/cars/zotye-t300.jpg",
+          "variations": [
+            {
+              "id": 404,
+              "color": "Красный",
+              "price": 950000,
+              "oldPrice": 1050000,
+              "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=600&q=80",
+              "info": "Компактный SUV, вариатор"
+            },
+            {
+              "id": 405,
+              "color": "Синий",
+              "price": 990000,
+              "oldPrice": 1090000,
+              "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+              "info": "Двухцветный кузов, мультимедиа"
+            },
+            {
+              "id": 406,
+              "color": "Белый",
+              "price": 1040000,
+              "oldPrice": 1150000,
+              "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c351?auto=format&fit=crop&w=600&q=80",
+              "info": "Максимальный набор систем безопасности"
+            }
+          ]
+        },
+        {
+          "modelId": "zotye-z300",
+          "modelName": "Zotye Z300",
+          "image": "/cars/zotye-z300.jpg",
+          "variations": [
+            {
+              "id": 407,
+              "color": "Серый",
+              "price": 750000,
+              "oldPrice": 830000,
+              "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+              "info": "Седан, механика, 1.5 л"
+            },
+            {
+              "id": 408,
+              "color": "Черный",
+              "price": 800000,
+              "oldPrice": 890000,
+              "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+              "info": "Седан, автоматическая КПП"
+            },
+            {
+              "id": 409,
+              "color": "Серебристый",
+              "price": 840000,
+              "oldPrice": 930000,
+              "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Comfort+"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "id": 5,
+      "brand": "Honda",
+      "models": [
+        {
+          "modelId": "honda-civic",
+          "modelName": "Honda Civic",
+          "image": "/cars/honda-civic.jpg",
+          "variations": [
+            {
+              "id": 501,
+              "color": "Белый",
+              "price": 2100000,
+              "oldPrice": 2350000,
+              "image": "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=600&q=80",
+              "info": "Седан, вариатор, 2.0 л, 158 л.с."
+            },
+            {
+              "id": 502,
+              "color": "Синий",
+              "price": 2250000,
+              "oldPrice": 2500000,
+              "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+              "info": "Спортивный седан, 1.5 л турбо"
+            },
+            {
+              "id": 503,
+              "color": "Черный",
+              "price": 2400000,
+              "oldPrice": 2650000,
+              "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Sport, литые диски R18"
+            }
+          ]
+        },
+        {
+          "modelId": "honda-cr-v",
+          "modelName": "Honda CR-V",
+          "image": "/cars/honda-cr-v.jpg",
+          "variations": [
+            {
+              "id": 504,
+              "color": "Серебристый",
+              "price": 2800000,
+              "oldPrice": 3100000,
+              "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+              "info": "Кроссовер, полный привод, 2.4 л"
+            },
+            {
+              "id": 505,
+              "color": "Серый",
+              "price": 2950000,
+              "oldPrice": 3250000,
+              "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+              "info": "Турбированный двигатель 1.5 л, полный привод"
+            },
+            {
+              "id": 506,
+              "color": "Белый",
+              "price": 3150000,
+              "oldPrice": 3450000,
+              "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c351?auto=format&fit=crop&w=600&q=80",
+              "info": "Максимальная комплектация Prestige, кожа"
+            }
+          ]
+        },
+        {
+          "modelId": "honda-accord",
+          "modelName": "Honda Accord",
+          "image": "/cars/honda-accord.jpg",
+          "variations": [
+            {
+              "id": 507,
+              "color": "Черный",
+              "price": 3200000,
+              "oldPrice": 3500000,
+              "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+              "info": "Бизнес-седан, 2.0 л турбо, АКПП-10"
+            },
+            {
+              "id": 508,
+              "color": "Белый перламутр",
+              "price": 3350000,
+              "oldPrice": 3650000,
+              "image": "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=600&q=80",
+              "info": "Гибридная версия (Hybrid)"
+            },
+            {
+              "id": 509,
+              "color": "Красный",
+              "price": 3500000,
+              "oldPrice": 3800000,
+              "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=600&q=80",
+              "info": "Спортивный обвес, проекция на лобовое стекло"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "id": 6,
+      "brand": "DW Hower",
+      "models": [
+        {
+          "modelId": "hower-h3",
+          "modelName": "DW Hower H3",
+          "image": "/cars/hower-h3.jpg",
+          "variations": [
+            {
+              "id": 601,
+              "color": "Серебристый",
+              "price": 1300000,
+              "oldPrice": 1450000,
+              "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+              "info": "Рамный внедорожник, полный привод, механика"
+            },
+            {
+              "id": 602,
+              "color": "Черный",
+              "price": 1370000,
+              "oldPrice": 1520000,
+              "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+              "info": "Рамный внедорожник, усиленная подвеска"
+            },
+            {
+              "id": 603,
+              "color": "Белый",
+              "price": 1440000,
+              "oldPrice": 1600000,
+              "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c351?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Luxury, кожаный салон"
+            }
+          ]
+        },
+        {
+          "modelId": "hower-h5",
+          "modelName": "DW Hower H5",
+          "image": "/cars/hower-h5.jpg",
+          "variations": [
+            {
+              "id": 604,
+              "color": "Коричневый",
+              "price": 1450000,
+              "oldPrice": 1620000,
+              "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+              "info": "Внедорожник, турбодизель 2.0 л"
+            },
+            {
+              "id": 605,
+              "color": "Серый",
+              "price": 1510000,
+              "oldPrice": 1680000,
+              "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+              "info": "Бензиновый двигатель 2.0 л, полный привод"
+            },
+            {
+              "id": 606,
+              "color": "Черный",
+              "price": 1590000,
+              "oldPrice": 1760000,
+              "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+              "info": "Максимальная комплектация Intelligent"
+            }
+          ]
+        },
+        {
+          "modelId": "hower-pickup",
+          "modelName": "DW Hower Pickup",
+          "image": "/cars/hower-pickup.jpg",
+          "variations": [
+            {
+              "id": 607,
+              "color": "Белый",
+              "price": 1380000,
+              "oldPrice": 1530000,
+              "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80",
+              "info": "Грузовой пикап, полный привод"
+            },
+            {
+              "id": 608,
+              "color": "Серый",
+              "price": 1440000,
+              "oldPrice": 1600000,
+              "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+              "info": "Пикап с кунгом в комплекте"
+            },
+            {
+              "id": 609,
+              "color": "Зеленый",
+              "price": 1500000,
+              "oldPrice": 1670000,
+              "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+              "info": "Внедорожная версия Off-Road"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "id": 7,
+      "brand": "Toyota",
+      "models": [
+        {
+          "modelId": "toyota-camry",
+          "modelName": "Toyota Camry",
+          "image": "/cars/toyota-camry.jpg",
+          "variations": [
+            {
+              "id": 701,
+              "color": "Черный",
+              "price": 3100000,
+              "oldPrice": 3400000,
+              "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=600&q=80",
+              "info": "Седан, 2.0 л, 150 л.с., АКПП"
+            },
+            {
+              "id": 702,
+              "color": "Белый перламутр",
+              "price": 3350000,
+              "oldPrice": 3650000,
+              "image": "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=600&q=80",
+              "info": "Седан, 2.5 л, 200 л.с., комплектация Комфорт"
+            },
+            {
+              "id": 703,
+              "color": "Серый",
+              "price": 3650000,
+              "oldPrice": 3990000,
+              "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Executive Safety, полная кожа"
+            }
+          ]
+        },
+        {
+          "modelId": "toyota-rav4",
+          "modelName": "Toyota RAV4",
+          "image": "/cars/toyota-rav4.jpg",
+          "variations": [
+            {
+              "id": 704,
+              "color": "Серебристый",
+              "price": 3200000,
+              "oldPrice": 3550000,
+              "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=600&q=80",
+              "info": "Кроссовер, передний привод, 2.0 л"
+            },
+            {
+              "id": 705,
+              "color": "Синий",
+              "price": 3500000,
+              "oldPrice": 3850000,
+              "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+              "info": "Полный привод AWD, комплектация Style"
+            },
+            {
+              "id": 706,
+              "color": "Белый",
+              "price": 3800000,
+              "oldPrice": 4150000,
+              "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c351?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Prestige, панорамная крыша"
+            }
+          ]
+        },
+        {
+          "modelId": "toyota-land-cruiser",
+          "modelName": "Toyota Land Cruiser 300",
+          "image": "/cars/toyota-land-cruiser.png",
+          "variations": [
+            {
+              "id": 707,
+              "color": "Черный",
+              "price": 9500000,
+              "oldPrice": 10200000,
+              "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=600&q=80",
+              "info": "Внедорожник, дизель 3.3 л, 299 л.с."
+            },
+            {
+              "id": 708,
+              "color": "Белый перламутр",
+              "price": 9800000,
+              "oldPrice": 10500000,
+              "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+              "info": "Бензин 3.5 л турбо, 415 л.с."
+            },
+            {
+              "id": 709,
+              "color": "Серый металлик",
+              "price": 10200000,
+              "oldPrice": 11000000,
+              "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация GR Sport, спортивный стиль"
+            }
+          ]
+        }
+      ]
+    },
+
+    
+    {
+      "id": 8,
+      "brand": "Opel",
+      "models": [
+        {
+          "modelId": "opel-astra",
+          "modelName": "Opel Astra",
+          "image": "/cars/opel-astra.jpg",
+          "variations": [
+            {
+              "id": 801,
+              "color": "Белый",
+              "price": 1400000,
+              "oldPrice": 1550000,
+              "image": "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=600&q=80",
+              "info": "Хэтчбек, механика, 1.4 л турбо"
+            },
+            {
+              "id": 802,
+              "color": "Серебристый",
+              "price": 1490000,
+              "oldPrice": 1650000,
+              "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+              "info": "Хэтчбек, автомат, климат-контроль"
+            },
+            {
+              "id": 803,
+              "color": "Красный",
+              "price": 1580000,
+              "oldPrice": 1750000,
+              "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Cosmo, спортивные кресла"
+            }
+          ]
+        },
+        {
+          "modelId": "opel-insignia",
+          "modelName": "Opel Insignia",
+          "image": "/cars/opel-insignia.jpg",
+          "variations": [
+            {
+              "id": 804,
+              "color": "Черный",
+              "price": 2000000,
+              "oldPrice": 2200000,
+              "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+              "info": "Лифтбек, автомат, 1.6 л турбо"
+            },
+            {
+              "id": 805,
+              "color": "Синий",
+              "price": 2150000,
+              "oldPrice": 2380000,
+              "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+              "info": "Универсал Sports Tourer, дизель"
+            },
+            {
+              "id": 806,
+              "color": "Белый",
+              "price": 2300000,
+              "oldPrice": 2550000,
+              "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c351?auto=format&fit=crop&w=600&q=80",
+              "info": "Комплектация Innovation, адаптивный свет"
+            }
+          ]
+        },
+        {
+          "modelId": "opel-mokka",
+          "modelName": "Opel Mokka",
+          "image": "/cars/opel-mokka.jpg",
+          "variations": [
+            {
+              "id": 807,
+              "color": "Желтый",
+              "price": 1650000,
+              "oldPrice": 1820000,
+              "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+              "info": "Компактный кроссовер, передний привод"
+            },
+            {
+              "id": 808,
+              "color": "Серый",
+              "price": 1740000,
+              "oldPrice": 1920000,
+              "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+              "info": "Кроссовер, полный привод, автомат"
+            },
+            {
+              "id": 809,
+              "color": "Черный",
+              "price": 1850000,
+              "oldPrice": 2050000,
+              "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+              "info": "Максимальная комплектация Ultimate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
